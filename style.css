@@ -1,0 +1,156 @@
+header{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.start-game{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 15px;
+    color: black;
+}
+
+.reset-game{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 15px;
+    color: black;
+}
+
+.start-game:hover{
+    background-color: rgb(240, 212, 212);
+    border: 1px solid white;
+    border-radius: 15px;
+    color: gray;
+}
+
+.reset-game:hover{
+    background-color: rgb(242, 220, 220);
+    border: 1px solid white;
+    border-radius: 15px;
+    color: gray;
+}
+h2{
+    color: white;;
+    font-family: Arial, Helvetica, sans-serif;;
+    text-align: center;
+}
+body{
+    background-color: white;
+   height:900px;
+    
+}
+
+h3{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;;
+    text-align: center;
+}
+
+img{
+    width: 60px;
+    height: 80px;
+}
+
+main{
+    background-color: white;
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+ button{
+    margin: 0 20px;
+    cursor: pointer;
+    border: none;
+    background-color: white;
+    
+}
+
+p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    font-weight: bold;;
+    
+}
+
+
+.result-p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;;
+    font-weight: bold;
+    margin-top: 60px;
+    background-color: black;
+    color: white;
+}
+
+.pick-something{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;;
+    font-weight: bold;
+    
+}
+
+.score{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+
+
+.wins{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;;
+    font-weight: bold;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.wins-p{
+    font-size: 25px;
+    margin: 30px;
+}
+
+.computer-p{
+    font-size: 25px;
+    margin-left:700px;
+}
+    
+.win-lose-p{
+    margin-bottom: 60px;
+}
+
+.score-section{
+    margin-top: 60px;
+}
+
+footer{
+    background-color: black;
+    height: 100px;
+}
+
+footer h1{
+    color: white;
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+}
