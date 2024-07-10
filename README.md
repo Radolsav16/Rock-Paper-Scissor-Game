@@ -1,8 +1,7 @@
 # Rock-Paper-Scissor-Game
 Rock-Paper-Scissor Game
 
-Rock, Paper, Scissors Game Description
-Overview
+Game Description Overview
 The Rock, Paper, Scissors game is a classic hand game usually played between two people. Each player simultaneously forms one of three shapes with an outstretched hand:
 
 Rock (a fist)
@@ -13,7 +12,7 @@ The rules are simple:
 Rock crushes Scissors,
 Scissors cuts Paper,
 Paper covers Rock
-Components
+Components:Includes very simple pure JavaScript,HTMl and Css
 HTML: The HTML file provides the structure of the game, including buttons for the player to choose Rock, Paper, or Scissors, and a display area for the game results.
 
 CSS: Basic styling to make the game visually appealing.
