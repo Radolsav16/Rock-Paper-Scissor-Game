@@ -10,8 +10,8 @@ Paper (an open hand)
 Scissors (a fist with the index and middle fingers extended, forming a V)
 The rules are simple:
 
-Rock crushes Scissors
-Scissors cuts Paper
+Rock crushes Scissors,
+Scissors cuts Paper,
 Paper covers Rock
 Components
 HTML: The HTML file provides the structure of the game, including buttons for the player to choose Rock, Paper, or Scissors, and a display area for the game results.
