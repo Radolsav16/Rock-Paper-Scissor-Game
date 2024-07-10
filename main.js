@@ -1,7 +1,7 @@
 const rockBtn = document.getElementById("rock-btn");
 const paperBtn = document.getElementById("paper-btn");
 const scissorBtn = document.getElementById("scissor-btn");
-
+const resetBtn = document.querySelector('.reset-game');
 //Gets buttons from DOM
 
 const pickedPersonText = document.querySelector('.pick-something-person');
@@ -17,14 +17,17 @@ const resultP = document.querySelector(".result-p");
 const   computerWins = document.querySelector('.computer-count');
 const   personWins = document.querySelector('.person-count');
 
+// get score p from DOM
 
 const wins = {
     person:0,
     computer:0
 }
 
+//Create Object which will safe a wins of computer and person
+
 const computerMove = ()=> {
-    let randomNumber = Math.floor(Math.random()*3);
+    let randomNumber = Math.floor(Math.random() * 3);
     let choice = '';
     
     if(randomNumber === 0){
@@ -40,9 +43,24 @@ const computerMove = ()=> {
     
 }
 
-const computerChoice = computerMove();
+// Make random choice function for computer choice
+
+
+
+const resetGame = () => {
+    pickedPersonText.innerHTML = `You picked : `
+    pickedComputerText.innerHTML = `Computer pick : `
+    wins.person = 0;
+    wins.computer = 0;
+    computerWins.textContent = wins.computer;
+    personWins.textContent= wins.person;
+     resultP.textContent = '';
+}
+
+// this is the function that restart the game
 
 const makeChanges = (personChoice)=>{
+    const computerChoice = computerMove();
     pickedPersonText.innerHTML += `<img src="images/${personChoice}.jfif"></img>`;
     pickedComputerText.innerHTML += `<img src="images/${computerChoice}.jfif"></img>`;
     let result = '';
@@ -74,6 +92,8 @@ const makeChanges = (personChoice)=>{
 
 }
 
+// this is the main function that takes the input and makes changes in the page
+
 
 
 rockBtn.addEventListener('click',()=>{
@@ -92,5 +112,10 @@ makeChanges(personChoice);
 })
 
 
+resetBtn.addEventListener('click',resetGame);
 
 
+
+
+
+// Here is the functionality of the page
